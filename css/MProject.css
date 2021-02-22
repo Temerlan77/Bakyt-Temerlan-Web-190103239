@@ -1,0 +1,440 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow-x:hidden;
+	
+}
+.photo1{
+	width:100%;
+	background:#76B9CC;
+}
+.headertexts{
+	position:absolute;
+	top:0%;
+	text-align:center;
+	background:red;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0, .5);
+}
+.insideheader{
+	position:relative;
+	top:40px;
+}
+.get{
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	font-size:80px;
+	transition:1s;
+}
+.get:hover{
+	font-size:85px;
+}
+.dis{
+	font-family: 'Amatic SC', cursive;
+	color:#76B9CC;
+	font-size:55px;
+	transition:1s;
+}
+.dis:hover{
+	font-size:60px;
+}
+.edu{
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	font-size:30px;
+	transition:1s;
+}
+.edu:hover{
+	font-size:35px;
+}
+.start{
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	font-size:30px;
+	background:#76B9CC;
+	border:0;
+	padding:10px 15px;
+	margin:10px;
+	opacity:0;
+}
+.works{
+	font-family: 'Amatic SC', cursive;
+	color:#76B9CC;
+	font-size:70px;
+	margin-top:150px;
+}
+.works2{
+	font-family: 'Amatic SC', cursive;
+	color:#76B9CC;
+	font-size:70px;
+	margin-top:230px;
+}
+em{
+	color:white;
+}
+.fset{
+	text-align:center;
+	background:#F6E9D6;
+}
+.ec{
+	font-family: 'Amatic SC', cursive;
+	color:#76B9CC;
+	font-size:70px;
+	margin-top:0px;
+	padding-top:30px;
+}
+.wt{
+	font-size:30px;
+	font-family: 'Lobster', cursive;
+}
+#uni{
+	font-size:50px;
+	color:#76B9CC;
+	margin-bottom:70px;
+}
+.finfo{
+	display:flex;
+	justify-content:space-around;
+}
+#all{
+	font-size:100px;
+	color:white;
+	background:#76B9CC;
+	padding:40px 40px;
+	border-radius:50%;
+	margin-bottom:20px;
+}
+#all:hover{
+	font-size:120px;
+	transition:1s all;
+}
+.online3{
+		font-family: 'Amatic SC', cursive;
+		font-size:40px;
+}
+.about{
+	width:300px;
+	margin-bottom:50px;
+}
+.midPhoto{
+	width:100%;
+}
+
+.btns{
+	width:500px;
+	display:flex;
+	justify-content:space-around;
+	position:relative;
+	top:60px;
+}
+#select{
+	font-family: 'Amatic SC', cursive;
+	font-size:60px;
+	position:relative;
+	top:40px;
+	
+}
+.bn{
+	border:0;
+	padding:15px 25px;
+	font-family: 'Amatic SC', cursive;
+	font-size:20px;
+	transition:1s all;
+}
+.bn:hover{
+	background:lime;
+	font-size:25px;
+}
+.courss{
+	background:#F6E9D6;
+	text-align:center;
+}
+.card{
+    margin:10px;
+background:#F6E9D6;
+}
+.c1{
+	background:orange;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c1f{
+	font-family: 'Lobster', cursive;
+	color:orange;
+	font-size:20px;
+}
+.c2{
+	background:blue;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c2f{
+	font-family: 'Lobster', cursive;
+	color:blue;
+	font-size:20px;
+}
+.c3{
+	background:lime;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c3f{
+	font-family: 'Lobster', cursive;
+	color:lime;
+	font-size:20px;
+}
+.c4{
+	background:red;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c4f{
+	font-family: 'Lobster', cursive;
+	color:red;
+	font-size:20px;
+}
+.c5{
+	background:#DD9E2D;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c5f{
+	font-family: 'Lobster', cursive;
+	color:#DD9E2D;
+	font-size:20px;
+}
+.c6{
+	background:#9C5D8A;
+	font-family: 'Mukta', sans-serif;
+	color:white;
+	font-size:20px;
+}
+#c6f{
+	font-family: 'Lobster', cursive;
+	color:#9C5D8A;
+	font-size:20px;
+}
+.miniCourses{
+	display:flex;
+	justify-content:center;
+}
+.vc{
+	text-align:center;
+	margin:20px;
+}
+.vac{
+	background:#76B9CC;
+	border:0;
+	padding:15px 25px;
+	font-size:25px;
+	color:white;
+	transition:1s all;
+}
+.vac:hover{
+	font-size:30px;
+	background:lime;
+}
+.trial{
+	padding:20px 30px;
+	background:#D10705;
+	color:white;
+	font-size:45px;
+		font-family: 'Amatic SC', cursive;
+}
+.monthly{
+	padding:20px 30px;
+	background:#D99C29;
+	color:white;
+	font-size:45px;
+		font-family: 'Amatic SC', cursive;
+}
+.yearly{
+	padding:20px 30px;
+	background:#9FBC3E;
+	color:white;
+	font-size:45px;
+		font-family: 'Amatic SC', cursive;
+}
+.offers{
+	display:flex;
+	justify-content:space-around;
+	width:80%;
+	margin:auto;
+}
+
+#clock{
+	color:#D10705;
+	font-size:150px;
+	margin:20px;
+}
+#calendar{
+	color:#D99C29;
+	font-size:150px;
+	margin:20px;
+}
+#smile{
+	color:#9FBC3E;
+	font-size:150px;
+	margin:20px;
+}
+.free{
+	color:#D10705;
+	font-size:35px;
+	margin:20px;
+	font-family: 'Amatic SC', cursive;
+}
+.free2{
+	color:#D99C29;
+	font-size:35px;
+	margin:20px;
+	font-family: 'Amatic SC', cursive;
+}
+.free3{
+	color:#9FBC3E;
+	font-size:35px;
+	margin:20px;
+	font-family: 'Amatic SC', cursive;
+}
+.want1{
+	border:0;
+	padding:15px 20px;
+	background:#D10705;
+	font-size:22px;
+	color:white;
+	transition:1s all;
+}
+.want1:hover{
+	font-size:23px;
+}
+.want2{
+	border:0;
+	padding:15px 20px;
+	background:#D99C29;
+	font-size:22px;
+	color:white;
+	transition:1s all;
+}
+.want2:hover{
+	font-size:23px;
+}
+.want3{
+	border:0;
+	padding:15px 20px;
+	background:#9FBC3E;
+	font-size:22px;
+	color:white;
+	transition:1s all;
+}
+.want3:hover{
+	font-size:23px;
+}
+#map{
+height:400px;
+width:60%;
+border:3px solid white;
+margin:20px;
+}
+.footer{
+	display:flex;
+	justify-content:center;
+	font-family: 'Amatic SC', cursive;
+	background:rgba(0,0,0, .4);
+}
+.loc{
+	width:600px;
+	margin-top:50px;
+}
+i{
+	color:red;
+	font-size:40px;
+}
+.pm{
+	color:white;
+	font-size:28px;
+	}
+.ourl{
+	color:white;
+}
+
+#ser{
+	color:#76B9CC;
+}
+@media (max-width:1300px){
+	.insideheader{
+	top:5px;
+}
+	.get{
+	font-size:30px;
+}
+.dis{
+	font-size:28px;
+}
+.edu{
+	font-size:15px;
+}
+.start{
+	font-size:10px;
+	background:#76B9CC;
+	border:0;
+	padding:5px 10px;
+	margin:5px;
+}
+.works{
+	font-size:30px;
+	margin-top:80px;
+}
+.works2{
+	font-size:30px;
+	margin-top:70px;
+}
+.finfo{
+	display:block;
+	text-align:center;
+}
+.about{
+	text-align:center;
+	margin:auto auto;
+}
+#select{
+	font-family: 'Amatic SC', cursive;
+	font-size:20px;
+	position:relative;
+	top:0px;
+	
+}
+.bn{
+	border:0;
+	padding:5px 15px;
+	font-family: 'Amatic SC', cursive;
+	font-size:20px;
+}
+.btns{
+	width:250px;
+	display:flex;
+	justify-content:space-around;
+	position:relative;
+	top:15px;
+}
+.offers{
+	display:block;
+	text-align:center;
+}
+.card{
+	margin:20px auto;
+}
+.footer{
+	display:block;
+	text-align:center;
+}
+#map{
+	margin:auto auto;
+	
+}
+}
