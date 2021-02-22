@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PAYMENT</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Karla:wght@700&family=Lexend+Peta&family=Lobster&family=Mukta:wght@600&family=Raleway:wght@700&family=Tajawal&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Karla:wght@700&family=Lexend+Peta&family=Lobster&family=Mukta:wght@600&family=Raleway:wght@700&family=Tajawal&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;700&family=Karla:wght@700&family=Lexend+Peta&family=Lobster&family=Mukta:wght@600&family=Tajawal&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<style>
+body{
+margin:0;
+padding:0;
+background:#F6E9D6;
+}
+.Header{
+text-align:center;
+opacity:0;
+}
+h1{
+padding:20px 30px;
+	background:#D10705;
+	color:white;
+	font-size:45px;
+		font-family: 'Amatic SC', cursive;
+}
+h2{
+padding:20px 30px;
+	background:#D10705;
+	color:white;
+	font-size:38px;
+		font-family: 'Amatic SC', cursive;
+}
+.pay{
+background:rgba(0,0,0, .3);
+width:55%;
+margin: auto auto;
+text-align:center;
+position:relative;
+top:600px;
+}
+.payment{
+padding:30px;
+}
+input{
+margin:10px auto;
+border: 3px solid #D10705;
+padding:7px;
+width:40%;
+}
+button{
+background:#D10705;
+color:white;
+padding:15px 20px;
+border:3px solid white;
+}
+</style>
+<div class="Header">
+<h1>TRIAL</h1>
+</div>
+<div class="pay">
+<div class="payment">
+<h2>TRIAL version is for free for you</h2>
+<input type="text" placeholder="First Name" id="firstname"/></br>
+<input type="text" placeholder="Last Name" id="lastname"/></br>
+<input type="text" placeholder="Age" id="age"/></br>
+<input type="text" placeholder="Course name" id="coursename"/></br>
+<button id="sub">SUBMIT</button>
+</div>
+</div>
+
+<script>
+$(".Header").animate({
+	opacity:'1'
+},2000);
+$(".pay").animate({
+	top:'0'
+},2000);
+document.getElementById('sub').addEventListener('click',function(){
+alert('Submitted!');
+document.getElementById('firstname').value="";
+document.getElementById('lastname').value="";
+document.getElementById('age').value="";
+document.getElementById('coursename').value="";
+});
+</script>
+</body>
+</html>
